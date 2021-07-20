@@ -1,6 +1,6 @@
 # Dockerfile from here: https://nodejs.org/de/docs/guides/nodejs-docker-webapp/
 
-FROM alpine:3.11
+FROM quay.io/openshift/origin-node
 
 # Create app directory
 WORKDIR /catapp
