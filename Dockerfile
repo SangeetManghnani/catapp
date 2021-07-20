@@ -1,6 +1,6 @@
 # Dockerfile from here: https://nodejs.org/de/docs/guides/nodejs-docker-webapp/
 
-FROM quay.io/openshift/origin-node
+FROM quay.io/bitnami/node
 
 # Create app directory
 WORKDIR /catapp
